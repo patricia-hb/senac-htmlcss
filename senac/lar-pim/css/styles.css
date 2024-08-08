@@ -34,6 +34,9 @@ img{
     height: ;
 
 }
+#banner{
+    border-radius: 0;;
+}
 h2{
     color: black;
     
@@ -59,9 +62,20 @@ h3{
 }
 .fotos{
     display: inline-block;
+    display: inline-block;
+    margin: 10px;
+    transition: transform 0.3s ease;
 
+}
+.fotos:hover {
+    transform: scale(1.1);
 }
 .bunch{
     display: flex;
     width: 100vw;
+    justify-content: space-around;
+    gap: 20px;
+}
+img{
+    border-radius: 8px;
 }
