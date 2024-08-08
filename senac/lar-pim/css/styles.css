@@ -57,3 +57,11 @@ h3{
     align-items: center;
     justify-content: center;
 }
+.fotos{
+    display: inline-block;
+
+}
+.bunch{
+    display: flex;
+    width: 100vw;
+}
