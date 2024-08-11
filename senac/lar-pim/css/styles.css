@@ -5,14 +5,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 header{
     position: relative;
 }
+
 body{
     background-color: rgb(247, 246, 229);
     
+    
 }
+.paginas{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(111, 226, 111);
+    color: white;
+    color: inherit;
+    border: 1px solid black;
+}
+.links{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
 .cabecalho{
     background-color: black;
     height: 70px;
@@ -23,25 +40,38 @@ body{
     font-size: smaller;
     
 }
+a{
+    border-radius: 8px;
+}
+a:visited { 
+ text-decoration: none; 
+ color: green; 
+}
+a:hover {
+    background-color: yellow;
+  }
+
 .banner{
     width: 100%;
     height: auto;
 }
+
 img{
     justify-content: center;
     align-items: center;
     display: block;
     width: 100%;
-    height: ;
 
 }
+
 #banner{
-    border-radius: 0;;
+    border-radius: 0;
 }
+
 h2{
-    color: black;
-    
+    color: black;    
 }
+
 .maintext, .paragrafo{
     display: flex;
     justify-content: center;
@@ -53,8 +83,7 @@ h2{
 h3{
     margin-left: 20px;
 }
-#menu{
-}
+
 .container{
     height: 100%;
     display: flex;
@@ -63,10 +92,16 @@ h3{
 }
 .fotos{
     display: inline-block;
-    display: inline-block;
     margin: 10px;
     transition: transform 0.3s ease;
+}
 
+.fotos2{
+    display: inline-block;
+    width: 1170;
+    height: 700;
+    transition: transform 0.3s ease;
+    
 }
 .fotos:hover {
     transform: scale(1.1);
@@ -104,4 +139,19 @@ input[type="text"] {
     border-radius: 4px;
     width: 100%;
     box-sizing: border-box;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(9, 10, 10);
+    color: #ccc;
+    padding: 15px;
+}
+
+.canais{
+display: flex;
+   text-align: center;
+   flex-direction: row;
+   justify-content: space-around;
 }
