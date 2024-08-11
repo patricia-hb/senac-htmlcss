@@ -16,9 +16,9 @@ body{
     
     
 }
-.paginas{
+nav{
     display: flex;
-    justify-content: space-around;
+justify-content: center;
     background-color: rgb(111, 226, 111);
     color: white;
     color: inherit;
@@ -38,17 +38,24 @@ body{
     align-items: center;
     color: white;
     font-size: smaller;
+
     
 }
+.menu{
+    background-color: rgb(40, 246, 40);
+    gap: 70px;
+}
 a{
-    border-radius: 8px;
+    border-radius: 25px;
+
 }
 a:visited { 
  text-decoration: none; 
- color: green; 
+ color: rgb(0, 0, 0); 
 }
 a:hover {
     background-color: yellow;
+    color:blue;
   }
 
 .banner{
@@ -154,4 +161,15 @@ display: flex;
    text-align: center;
    flex-direction: row;
    justify-content: space-around;
+}
+nav{
+    background-color: var(--cor5);
+    padding: 10px;
+    box-shadow: 0px 7px 7px black;
+}
+nav > a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    transition-duration: 0.5s;
 }
